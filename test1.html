@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир котиков</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+        }
+
+        header {
+            background: #ffccbc;
+            color: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .cat {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .cat img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в мир котиков!</h1>
+    </header>
+
+    <section class="gallery">
+        <div class="cat">
+            <img src="https://www.sostav.ru/images/news/2019/04/01/9iithyjt_md.jpg" alt="Котик 1">
+            <p>Этот котик пришёл по веб-ссылке</p>
+        </div>
+        <div class="cat">
+            <img src="cat.jpg" alt="Котик 2">
+            <p>Этот котик пришёл из папки проекта</p>
+        </div>
+        <div class="cat">
+            <img src="F:/cat.jpg" alt="Котик 3">
+            <p>Этот котик пришёл из какой-то другой папки (НЕ из проекта)</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Мир котиков. Все права защищены.</p>
+    </footer>
+</body>
+</html>
